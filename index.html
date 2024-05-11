@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Blog</title>
+        <link rel="stylesheet" href="./assets/css/form.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            
+        </header>
+        <hr>
+        <div class="container">
+            <div class="blog-name">My First Blog</div>
+            <div class="input-container">
+                <button id="mode-toggle">☀️</button>
+                <h2>What's on your mind?</h2>
+               
+                <form method="POST">
+            
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" />
+                    </div>
+                    <div class="input-group">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" id="title"/>
+                    </div>
+                    <div class="input-group">
+                        <label for="content">Content</label>
+                        <input type="text" name="content" id="content" />
+                    </div>
+                  
+                    <button id="submit">Submit</button>
+                   
+                </form>   
+                <p id="validationMessage" style="color: red; display: none;">Please complete all fields.</p>        
+
+            </div>
+
+        </div>
+       
+        <script src="./assets/js/logic.js"></script>
+    </body>
+    
+</html>
