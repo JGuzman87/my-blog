@@ -15,6 +15,7 @@ page showing us the blog posts.
 
 Website:
 
+https://jguzman87.github.io/my-blog/
 
 ![alt text](image-2.png)
 
