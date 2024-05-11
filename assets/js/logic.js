@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             blogPosts.push(newPost);
             localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
 
-        window.location.href = 'https://jguzman87.github.io/my-blog/blog.html';
+        window.location.href = 'https://jguzman87.github.io/my-blog/blog.html/';
 
      
         }
